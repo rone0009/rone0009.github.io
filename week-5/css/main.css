@@ -1,4 +1,33 @@
 body {
     color: blue;
 }
-/*This is a css comment*/
+
+/* change colour of only p,ara and list item*/
+p, li {
+    color: darkgoldenrod;
+}
+
+/*targetting chlid elements*/
+section h1 {
+    color: darkred;
+}
+
+/* style a class */
+.secondary-heading {
+    color: darkgreen;
+}
+a:link {
+    color: rgb(255, 238, 0);
+}
+a:visited {
+    color: hotpink;
+}
+a:hover {
+    color: black;
+}
+a:active {
+    color: white;
+}
+a[href="https://www.algonquincollege.com/"] {
+    color: rgb(0, 247, 255);
+}
