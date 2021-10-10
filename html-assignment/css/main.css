@@ -17,3 +17,13 @@ ul {
 ul :nth-child(odd) {
     background-color:lightslategray;
 }
+a:link {
+    text-decoration: none;
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 217, 0);
+}
+a:hover {
+    background-color: cornflowerblue;
+    color: white;
+}
