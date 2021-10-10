@@ -5,3 +5,15 @@ body {
 header, footer {
     background-color: cornflowerblue;
 }
+.site-title {
+    color: crimson;
+}
+#my-image {
+    box-shadow: 0 0 2px 1px black;
+}
+ul {
+    list-style-type: square;
+}
+ul :nth-child(odd) {
+    background-color:lightslategray;
+}
