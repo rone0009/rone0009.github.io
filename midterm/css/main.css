@@ -1,29 +1,94 @@
+html{
+    background-color: #aad4cf;
+    
+}
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 18px;
+    background-color: #D4E9E7;
+    margin: 0;
+    position: absolute;
+        /* top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%); */
 }
-header, footer {
-    background-color: cornflowerblue;
+.line1 {
+    border-left: 1px solid #3D4342;
+    height: 45px;
+    position: absolute;
+    left: 33.3%;
+    margin-left: -3px;
+    top: 50;
+  }
+.line2 {
+    border-left: 1px solid #3D4342;
+    height: 45px;
+    position: absolute;
+    left: 66.6%;
+    margin-left: -3px;
+    top: 50;
+  }
+nav n h, s, c{
+    list-style-type: none;
+    display: inline;
+    margin-left: 0px;
+            
 }
-.site-title {
-    color: crimson;
-}
-#my-image {
-    box-shadow: 0 0 2px 1px black;
-}
-ul {
-    list-style-type: square;
-}
-ul :nth-child(odd) {
-    background-color:lightslategray;
-}
-a:link {
+a{
+    float: left;
+        
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 24px;
     text-decoration: none;
-    background-color: rgb(255, 0, 0);
-    color: rgb(255, 255, 255);
-    border: 2px solid rgb(255, 217, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;    
+    font-size: 27px;
+    color: black;
+    width: 33.3%; /* Four links of equal widths */
+    text-align: center;
 }
-a:hover {
-    background-color: cornflowerblue;
-    color: white;
+
+header {
+    box-sizing: border-box;
+    width: 1024px;
+    height: 341px;
+      
+    background-image: url(../images/lone-starfish-wide.jpg);
+    background-repeat: no-repeat;   
+}
+
+h1 {
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 62pt;
+    font-weight: lighter;    
+    text-align: center;
+    padding-top: 191px;
+}
+
+h2 {
+    clear: left;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    font-size: 35px;
+}
+article{
+    box-sizing: border-box;
+    width: 1024px;
+    height: 341px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+img{
+    margin: auto 20px 53px 10px;
+    width: 200px;
+    float: left;
+}
+p{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+
 }
