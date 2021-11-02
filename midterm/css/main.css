@@ -1,63 +1,25 @@
-html{
+/* adds back to the whole html */
+html {
     background-color: #aad4cf;
-    
-}
-body {
-    background-color: #D4E9E7;
-    margin: 0;
-    position: absolute;
-        /* top: 50%;
-        left: 50%;
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%); */
-}
-.line1 {
-    border-left: 1px solid #3D4342;
-    height: 45px;
-    position: absolute;
-    left: 33.3%;
-    margin-left: -3px;
-    top: 50;
-  }
-.line2 {
-    border-left: 1px solid #3D4342;
-    height: 45px;
-    position: absolute;
-    left: 66.6%;
-    margin-left: -3px;
-    top: 50;
-  }
-nav n h, s, c{
-    list-style-type: none;
-    display: inline;
-    margin-left: 0px;
-            
-}
-a{
-    float: left;
-        
-    margin-top: 0px;
-    padding-top: 0px;
-    padding-bottom: 24px;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: lighter;    
-    font-size: 27px;
-    color: black;
-    width: 33.3%; /* Four links of equal widths */
-    text-align: center;
 }
 
+body {
+    margin: 0 auto 15px;
+    background-color: #d4e9e7;
+    padding: 0;
+    width: 1024px;
+}
+
+/* specifies background image and width */
 header {
-    box-sizing: border-box;
     width: 1024px;
     height: 341px;
-      
     background-image: url(../images/lone-starfish-wide.jpg);
     background-repeat: no-repeat;   
 }
 
 h1 {
+    margin: 0 auto 15px;
     color: #FFFFFF;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 62pt;
@@ -66,29 +28,168 @@ h1 {
     padding-top: 191px;
 }
 
-h2 {
+/* first line division for the navigation bar */
+.line1 {
+    position: absolute;
+    border-left: 1px solid #5C6565;
+    height: 45px;
+    top: 345px;
+    color: black;
+    margin-left: 333px;
+}
+
+/* second line division for the navigation bar */
+.line2 {
+    position: absolute;
+    border-left: 1px solid #5C6565;
+    height: 45px;
+    top: 345px;
+    color: black;
+    margin-left: 666px;
+  }
+
+/* defines properties to achor tag */
+.navbar a {
+    float: left;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold; 
+    color: black;
+    text-decoration: none;
+    font-size: 27px;
+    width: 33%; 
+    margin-top: 15px;
+    text-align: center;
+}
+
+/* heading tag for life of a starfish   */
+.t1 {
     clear: left;
     color: #000;
     font-family: Arial, Helvetica, sans-serif;
-    
     font-size: 35px;
-}
-article{
-    box-sizing: border-box;
-    width: 1024px;
-    height: 341px;
+    margin-top: 85px;
     margin-left: 10px;
-    margin-right: 10px;
 }
 
-img{
-    margin: auto 20px 53px 10px;
-    width: 200px;
+img {
+    width: 250px;
+    height: 255px;
+    margin: auto 22px 35px 10px;
     float: left;
 }
-p{
-    
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16pt;
 
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13.53pt;
+    margin-left: 10px;
+}
+
+/* heading tag for Contact to learn more   */
+.t2 {
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    margin-top: 37px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13.53pt;
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.t3 {
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    margin-top: 37px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+
+.b1 {
+    padding-right: 21px;
+    padding-left: 25px;
+    margin-left: 17px;
+    margin-top: 20px;
+    width: 933px;
+    height: 432px;  
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    border: 1px solid black;
+}
+
+/* targets the message type in the block element   */
+input[type=text], select {
+    width: 932px;
+    margin-right: 40px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+/* targets the message type in the block element   */
+input[type=message], select {
+    width: 932px;
+    margin-right: 51px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    height: 100px;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}  
+
+h3{
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+}
+
+input[type=radio], select {
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+/* submit button to send the contact information */
+.button {
+    display: block;
+    font-size: 10px;
+    text-align: center;
+    border: 1px solid #000;
+    background-color: #D4E9E7;
+    padding: 16px;
+    margin-top: 20px;
+    margin-bottom: 16px;
+}
+
+.button:hover {
+    background-color: #AAD4CF;
+}
+
+.button:active {
+    background-color: #00fb92;
+}
+
+footer {
+    text-align: right;
+    padding-right: 35px;
+    padding-bottom: 38px;
 }
